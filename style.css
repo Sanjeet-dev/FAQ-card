@@ -34,4 +34,25 @@ body{
     justify-content:center;
     align-items:center;
     font-family: 'Kumbh Sans', sans-serif;
+    background-color:var(--Soft-violet);
+}
+.container{
+    height:35rem;
+    width:30rem;
+    display:flex;
+    justify-content:space-between;
+    background-color:var(--Light-grayish-blue);
+
+}
+.illustration{
+    position:relative;
+}
+.readingFaq{
+    height:6rem;
+    width:4rem;
+}
+.faq{
+    display:flex;
+    flex-direction:column;
+    gap:1.2rem;
 }
