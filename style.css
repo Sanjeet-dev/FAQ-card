@@ -39,6 +39,7 @@ body{
 .container{
     height:20rem;
     width:38rem;
+    overflow:hidden;
     display:flex;
     justify-content:space-around;
     background-color:#ffffff;
@@ -64,13 +65,16 @@ body{
     gap:0.5rem;
     margin-top:2rem;
 }
+.faq h2{
+    font-size:18px;
+}
 .box{
-    position: absolute;
     height: 7rem;
     width: 7rem;
-    left: -9.5rem;
-    top: 9rem;
-    z-index: 2;
+    position: absolute;
+    bottom: 7rem;
+    left: 3.7rem;
+    z-index:2;
 }
 .shadow{
     height: 35rem;
@@ -81,11 +85,17 @@ body{
 }
 p{
     font-size:xx-small;
+    font-weight:500;
 }
 .question-title{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+.question-title  p:hover{
+    cursor:pointer;
+    color: var(--Soft-red);
+
 }
 
 .question-btn {
