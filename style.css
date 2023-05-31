@@ -65,8 +65,8 @@ body{
 .faq{
     display:flex;
     flex-direction:column;
-    gap:0.5rem;
-    margin-top:2rem;
+    gap:1rem;
+    margin-top:3rem;
 }
 .faq h2{
     font-size:18px;
@@ -88,31 +88,41 @@ body{
     bottom: -6rem;
     left: -29rem;
 }
-p{
-    font-size:xx-small;
+.question-title p{
+    font-size:x-small;
     font-weight:500;
+    margin-bottom:5px;
 }
 .question-title{
+    font-size:small;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 .question-title  p:hover{
     cursor:pointer;
     color: var(--Soft-red);
 
 }
+.question-text p{
+    font-size:x-small;
+    font-weight:300;
+}
 
 .question-btn {
-    font-size: 1.5rem;
+    font-size: 0.6rem;
     background: transparent;
     border:none;
     cursor: pointer;
     color: var(--Soft-red);
   }
-.question-text {
-    padding: 1rem 0 1.5rem 0;
+ .question-text {
+    padding-bottom:1rem
+  } 
+  .line{
     border-top: 1px solid rgba(0, 0, 0, 0.2);
+    opacity:0.5;
+
   }
   .question-text p {
     margin-bottom: 0;
@@ -133,3 +143,7 @@ p{
   .show-text .minus-icon {
     display: none;
   } 
+
+  .toggle-font{
+    font-weight: bold !important;
+  }
