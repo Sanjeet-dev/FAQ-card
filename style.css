@@ -36,6 +36,9 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color:var(--Soft-violet);
 }
+.main{
+    position:relative;
+}
 .container{
     height:20rem;
     width:38rem;
@@ -69,12 +72,14 @@ body{
     font-size:18px;
 }
 .box{
+    position: absolute;
+    bottom: 3.3rem;
+    left: -3.2rem;
+    z-index:2;
+}
+.box-image{
     height: 7rem;
     width: 7rem;
-    position: absolute;
-    bottom: 7rem;
-    left: 9.5rem;
-    z-index:2;
 }
 .shadow{
     height: 35rem;
