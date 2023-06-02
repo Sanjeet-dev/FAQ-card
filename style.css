@@ -106,8 +106,8 @@ body {
   background-repeat:no-repeat;
   position: absolute;
   background-size: contain;
-    bottom: -8rem;
-    left: -23rem;
+  bottom: -8rem;
+  left: -23rem;
 }
   
 
@@ -192,6 +192,7 @@ body {
     width: 33rem;
     height: 37rem;
     overflow: visible;
+    border-radius:23px;
   }
 
   /* images of box, faq  */
@@ -201,28 +202,89 @@ body {
   
   .readingFaq{
     background-image:url("./images/illustration-woman-online-mobile.svg");
-    bottom: -3rem;
-    left: 2rem;
+    bottom: -3.5rem;
+    left: 7.5rem;
 
   }
   .shadow{
     background-image: url("./images/bg-pattern-mobile.svg");
-    top: -4rem;
-    left: 0rem;
+    top: -3rem;
+    left: 7.5rem;
     height: 13rem;
-    width: 22rem;
+    width: 18rem;
   }
 
   .faq{
     margin-left:5rem;
   }
   .heading h2{
-    margin-left: 9rem;
+    margin-left: 10rem;
     margin-top: -4rem;
-    font-size: 27px;
+    font-size: 32px;
   }
   .question-title p{
     font-size:16px;
   }
+  .question-text p{
+    font-size:15px;
+  }
+}
+
+@media screen and (max-width:525px){
+  .container{
+    width:28rem;
+    border-radius:25px;
+  }
+  .readingFaq{
+    left: 5rem;
+    bottom: -3rem;
+  }
+  .shadow{
+    left:5rem;
+  }
+  .faq{
+    margin-left:3rem;
+  }
+  .heading h2{
+    font-size:28px;
+    margin-left:9rem;
+
+  }
+  .question-title p{
+    font-size:16px;
+  }
+  .question-text p{
+    font-size:15px;
+  }
+}
+@media screen and (max-width:400px) {
+  .container{
+    width:23rem;
+  }
+  .readingFaq{
+    left: 3rem;
+    bottom: -3rem;
+  }
+  .shadow{
+    left:3rem;
+  }
+  .faq{
+    margin-left:1.5rem;
+  }
+  .heading h2{
+    font-size:28px;
+    margin-left:7rem;
+
+  }
+  .question-title{
+    justify-content:space-evenly;
+  }
+  .question-title p{
+    font-size:14px;
+  }
+  .question-text p{
+    font-size:12px;
+    }
+  
 }
 
