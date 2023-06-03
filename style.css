@@ -193,6 +193,7 @@ body {
     height: 37rem;
     overflow: visible;
     border-radius:23px;
+    margin-top:7rem;
   }
 
   /* images of box, faq  */
@@ -269,7 +270,8 @@ body {
     left:3rem;
   }
   .faq{
-    margin-left:1.5rem;
+    margin-left:2rem;
+    width:21rem;
   }
   .heading h2{
     font-size:28px;
@@ -277,7 +279,7 @@ body {
 
   }
   .question-title{
-    justify-content:space-evenly;
+    justify-content:space-between;
   }
   .question-title p{
     font-size:14px;
@@ -286,5 +288,11 @@ body {
     font-size:12px;
     }
   
+}
+@media screen and (max-width:375px){
+  .faq{
+    margin-left:2rem;
+    width:20rem;
+  }
 }
 
