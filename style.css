@@ -183,6 +183,7 @@ body {
 
 .toggle-font {
   font-weight: bold !important;
+  color:#000000 !important;
 }
 
 @media screen and (max-width:737px) {
