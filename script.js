@@ -20,7 +20,7 @@ quest.forEach(function(faq,index){
 
 
 
-// using buttons you can also perform the same task
+//While using buttons you can perform the same task
 function checkButtons(){
 btns.forEach(function(btn,index){
     btn.addEventListener('click', function(e){

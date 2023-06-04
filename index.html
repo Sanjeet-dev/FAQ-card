@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- level one heading -->
 <html lang="en">
 
 <head>
@@ -19,23 +20,23 @@
 
 <body>
   <main class="main">
-    <div class="box-image"></div>
+    <figure class="box-image" alt="cubical-box"></figure>
     <div class="container">
       
-      <div class="illustration">
+      <section class="illustration">
         <div class="readingFaq"></div>
         <div class="shadow"></div>
-      </div>
+      </section>
       
       
-      <div class="faq">
-        <div class="heading">
+      <section class="faq">
+        <header class="heading">
           <h2>FAQ</h2>
-        </div>
+        </header>
 
         <!-- five faq questions -->
-        <article class="question">
-          <div class="question-title">
+        <details class="question" open>
+          <summary class="question-title">
             <p>How many team members can I invite?</p>
             <button class="question-btn" alt="up-down">
               <span class="plus-icon">
@@ -45,7 +46,7 @@
                 <i class="fa-solid fa-angle-down"></i>
               </span>
             </button>
-          </div>
+          </summary>
           <div class="question-text">
             <p>
               You can invite up to 2 additional users on the Free plan.<br>
@@ -54,12 +55,12 @@
           </div>
           <div class="line"></div>
 
-        </article>
+        </details>
 
 
         <!-- end of single question -->
-        <article class="question">
-          <div class="question-title">
+        <details class="question" open>
+          <summary class="question-title">
             <p>What is the maximum file upload size?</p>
             <button class="question-btn" alt="up-down">
               <span class="plus-icon">
@@ -69,7 +70,7 @@
                 <i class="fa-solid fa-angle-down"></i>
               </span>
             </button>
-          </div>
+          </summary>
           <div class="question-text">
             <p>
               No more than 2GB. All files in your account must fit<br>
@@ -77,13 +78,13 @@
             </p>
           </div>
           <div class="line"></div>
-        </article>
+        </details>
 
 
 
 
-        <article class="question">
-          <div class="question-title">
+        <details class="question" open>
+          <summary class="question-title">
             <p>How do I reset my password?</p>
             <button class="question-btn" alt="up-down">
               <span class="plus-icon">
@@ -93,7 +94,7 @@
                 <i class="fa-solid fa-angle-down"></i>
               </span>
             </button>
-          </div>
+          </summary>
           <div class="question-text">
             <p>
               Click “Forgot password” from the login page or <br>
@@ -103,13 +104,13 @@
           </div>
           <div class="line"></div>
 
-        </article>
+        </details>
 
 
 
 
-        <article class="question">
-          <div class="question-title">
+        <details class="question" open>
+          <summary class="question-title">
             <p>Can I cancel my subscription?</p>
             <button class="question-btn" alt="up-down">
               <span class="plus-icon">
@@ -119,7 +120,7 @@
                 <i class="fa-solid fa-angle-down"></i>
               </span>
             </button>
-          </div>
+          </summary>
           <div class="question-text">
             <p>
               Yes! Send us a message and we’ll process your <br>
@@ -128,13 +129,13 @@
           </div>
           <div class="line"></div>
 
-        </article>
+        </details>
 
 
 
 
-        <article class="question">
-          <div class="question-title">
+        <details class="question" open>
+          <summary class="question-title">
             <p>Do you provide additional support?</p>
             <button class="question-btn" alt="up-down">
               <span class="plus-icon">
@@ -144,7 +145,7 @@
                 <i class="fa-solid fa-angle-down"></i>
               </span>
             </button>
-          </div>
+          </summary>
           <div class="question-text">
             <p>
               Chat and email support is available 24/7. <br>
@@ -152,8 +153,8 @@
             </p>
           </div>
           <div class="line"></div>
-        </article>
-      </div>
+        </details>
+      </section>
     </div>
   </main>
   <script src="./script.js"></script>
